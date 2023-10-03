@@ -15,15 +15,22 @@ How: Cheap compute (Pi Zero W possibly), speaker microphone system, rechargeable
 
 Technical details:
 
+Language Model/AI:
+-character.ai unofficial API https://github.com/kramcat/CharacterAI
+-inworld.ai for character personalities
+-XRAgents possible
+
 Audio:
--speech to text, need to know when to stop listening
--text to speech (whisper, realtime)
+-speech to text, need to know when to stop listening (whisper, realtime)
+-text to speech (elevenlabs, azure, google voices)
+
 -self suppression of own speech to stop feedback loops
 
 Memory:
 -efficient buffer usage for the ram
 
 Input:
+-one button to do custom behavior
 
 Prototype:
 -running on laptop and able to tie together all the API's, try to measure all the latency, and optimize for low latency, low memory usage.
